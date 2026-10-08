@@ -1,0 +1,11 @@
+node_modules/
+
+# Environment — never commit secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Expo / tooling (repo root)
+.expo/
